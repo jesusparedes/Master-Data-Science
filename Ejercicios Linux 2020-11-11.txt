@@ -1,0 +1,37 @@
+mkdir first_dir
+ls
+touch first_dir/text_file.txt
+cd first_dir
+ls
+ls -l
+chmod g+x,o+w text_file.txt
+ls -l
+mkdir sub1 sub2 text_file
+ls
+cp text_file.txt sub1
+cd sub1
+ls
+cd ../
+ls
+mv text_file.txt sub2/text_file.txt2
+cd sub2/
+ls
+cd ../
+cp sub1 sub3
+cp -r sub1 sub3
+cd sub1
+ls
+cd ../
+cd sub3
+ls
+cd ../
+mv ./sub2/text_file.txt2 ./sub2/text_file.backup
+cd sub2
+ls
+cd ../
+mv ./sub2/text_file.backup ./.text_file.backup
+ls -a
+rm -r sub2
+ls
+ls -a
+gedit .history
