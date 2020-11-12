@@ -1,0 +1,10 @@
+echo hola
+echo 'hola mi directorio es $HOME'
+echo "hola mi directorio es $HOME"
+echo 'date'
+echo "date"
+echo `date`
+echo "$(date)"
+echo '$(date)'
+gidit .history
+gedit .history
